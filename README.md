@@ -15,7 +15,7 @@
 
 # donate.js [![Donate now][donate-now]][paypal-donations]
 
-A JavaScript library for creating a friendly way to send donations.
+A JavaScript library for creating a friendly way to send money donations.
 
 [![donate.js](http://i.imgur.com/zd8iezr.jpg)](http://ionicabizau.github.io/donate.js/example)
 
