@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/IonicaBizau/donate.js",
   "blah": {
-    "ex_img": "http://i.imgur.com/zd8iezr.jpg"
+    "ex_img": "http://i.imgur.com/zd8iezr.jpg",
+    "ex_url": "http://ionicabizau.github.io/donate.js/example"
   }
 }
