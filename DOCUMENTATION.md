@@ -1,58 +1,6 @@
+## Documentation
 
-# donate.js [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/donate.js.svg)](https://www.npmjs.com/package/donate.js) [![Downloads](https://img.shields.io/npm/dt/donate.js.svg)](https://www.npmjs.com/package/donate.js) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
-
-> A JavaScript library for creating a friendly way to send money donations.
-
-[![donate.js](http://i.imgur.com/zd8iezr.jpg)](http://ionicabizau.github.io/donate.js/example)
-
-## :cloud: Installation
-
-
-Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
-
-If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
-
-```sh
-$ npm i --save donate.js
-```
-
-
-## :clipboard: Example
-
-
-
-```js
-Donate({
-    container: ".donate"
-  , prefix: "$"
-  , classes: {
-        active: "active"
-    }
-  , amounts: [
-        50
-      , 100
-      , 200
-      , 300
-      , 400
-      , 500
-      , 700
-    ]
-  , custom: true
-  , format: function (val) {
-      return val > 1000
-           ? (val = val.toString()).substring(0, 1) + "," + val.substring(1)
-           : val
-           ;
-    }
-  , onChange: function (val, li, e) {
-        document.querySelector("[name=amount]").value = val;
-    }
-  , defaultValue: 20
-});
-```
-
-## :memo: Documentation
-
+You can see below the API reference of this module.
 
 ### `Donate(options)`
 Create the selection UI where the user can choose a fixed or a custom amount.
@@ -90,20 +38,3 @@ Selects an amount.
 - **Event** `e`: The event object.
 - **Boolean** `isCustom`: A flag representing if the amount is fixed or custom.
 
-
-
-## :yum: How to contribute
-Have an idea? Found a bug? See [how to contribute][contributing].
-
-
-## :scroll: License
-
-[MIT][license] © [Ionică Bizău][website]
-
-[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
-
-[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2015#license-mit
-[website]: http://ionicabizau.net
-[contributing]: /CONTRIBUTING.md
-[docs]: /DOCUMENTATION.md
