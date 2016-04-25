@@ -1,6 +1,6 @@
 {
   "name": "donate.js",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A JavaScript library for creating a friendly way to send money donations.",
   "main": "lib/index.js",
   "directories": {
@@ -32,5 +32,16 @@
   "blah": {
     "ex_img": "http://i.imgur.com/zd8iezr.jpg",
     "ex_url": "http://ionicabizau.github.io/donate.js/example"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
