@@ -1,6 +1,6 @@
 {
   "name": "donate.js",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "A JavaScript library for creating a friendly way to send money donations.",
   "main": "lib/index.js",
   "directories": {
@@ -41,6 +41,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
