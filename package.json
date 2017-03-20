@@ -1,6 +1,6 @@
 {
   "name": "donate.js",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A JavaScript library for creating a friendly way to send money donations.",
   "main": "lib/index.js",
   "directories": {
@@ -23,7 +23,7 @@
     "javascript",
     "money"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/donate.js/issues"
@@ -37,12 +37,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
