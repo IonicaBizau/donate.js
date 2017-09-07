@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Create the selection UI where the user can choose a fixed or a custom amount.
 
 #### Params
+
 - **Object** `options`: An object containing the following fields:
  - `prefix` (String): The snippet that should appear *before* the amount value (default: `""`). Could be useful for currencies (e.g. `"$"`).
  - `sufix` (String): The snippet that should appear *after* the amount value (default: `""`).
@@ -33,6 +34,7 @@ Create the selection UI where the user can choose a fixed or a custom amount.
 Selects an amount.
 
 #### Params
+
 - **Element|Number** `amount`: The element to select or a number representing the amount.
 - **Number** `value`: The amount value.
 - **Event** `e`: The event object.
